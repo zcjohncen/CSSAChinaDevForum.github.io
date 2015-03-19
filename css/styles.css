@@ -11,10 +11,20 @@ text-align: justify;
 
 #nav_bar{
 	margin-top: 40px;
+	display: block;
+}
+
+#banner_container{
+	display: block;
+}
+
+.banner{
+	height: 408px;
+	background: url(../images/banner.png) no-repeat center center;
+	background-size: cover;
 }
 
 .About {
-background: url(../images/groovepaper.png) 50% 0 repeat fixed;
 color: #575757;
 overflow: hidden;
 padding: 85px 0 100px;
