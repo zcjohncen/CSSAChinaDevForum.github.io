@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery>
+  <image imageURL="images/P1.jpg"
+	thumbURL="images/P1.jpg"
+	linkURL="images/P1.jpg"
+	linkTarget="_blank">
+	<caption>Confucius!</caption>
+  </image>
+  <image imageURL="images/P1.jpg"
+	thumbURL="images/P1.jpg"
+	linkURL="images/P1.jpg"
+	linkTarget="_blank">
+	<caption>Silk Road!</caption>
+  </image>
+  <image imageURL="images/P1.jpg"
+	thumbURL="images/P1.jpg"
+	linkURL="images/P1.jpg"
+	linkTarget="_blank">
+	<caption>fadsfjasdklfjasldfjaslfjlsadkfjasf!</caption>
+  </image>
+  <image imageURL="images/P1.jpg"
+	thumbURL="images/P1.jpg"
+	linkURL="images/P1.jpg"
+	linkTarget="_blank">
+	<caption>fdasjlfkasdjflkasjflkasjflsdalkfjlksdklfaslkf!</caption>
+  </image>
+</juiceboxgallery>
