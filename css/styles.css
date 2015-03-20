@@ -90,3 +90,13 @@ border: 3px solid rgba(0,0,0,0.2);
 box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.4);
 }
 
+@media screen and (max-width: 600px) {
+  #post_share_sidebar {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
