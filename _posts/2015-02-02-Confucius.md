@@ -2,7 +2,7 @@
 layout: post
 theme: "Confucius: from Cambridge, to China, and back"
 cover_photo: /images/cencen.jpg
-highlight: 了解留学生如何在这样一场深远的变革中找准自己发展的定位
+highlight: Confucius blablablka
 event_date: 13th March 2015
 ---
 

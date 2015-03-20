@@ -2,7 +2,7 @@
 layout: post
 theme: 走进文学巨匠马悦然
 cover_photo: /images/feifei.jpg
-highlight: 了解留学生如何在这样一场深远的变革中找准自己发展的定位
+highlight: 一场中国汉学的视听盛宴
 event_date: 13th March 2015
 ---
 

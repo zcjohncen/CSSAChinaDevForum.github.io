@@ -2,15 +2,16 @@
 body,button,input,select,textarea{ font:12px "å¾®è½¯é›…é»‘";}
 
 p {
-font-size: 17px !important;
-letter-spacing: 0;
-line-height: 23px;
-margin: 0 0 10px;
-text-align: justify;
+	font-size: 17px !important;
+	letter-spacing: 0;
+	line-height: 23px;
+	margin: 0 0 10px;
+	text-align: justify;
 }
 
 #nav_bar{
-	margin-top: 40px;
+	margin: 40px auto;
+	width: 95%;
 	display: block;
 }
 
@@ -20,6 +21,8 @@ text-align: justify;
 
 .banner{
 	height: 408px;
+	width: 90%;
+	margin: 0 auto;
 	background: url(../images/banner.png) no-repeat center center;
 	background-size: cover;
 }

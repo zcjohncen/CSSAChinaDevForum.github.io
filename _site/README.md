@@ -2,10 +2,8 @@
 
 Webpage for publishing news and updates for Cambridge University China Development Forum
 
-## Event Page
+## Dependencies
 
-## About Page
-
-## Contact Page
-
-## Gallery Page
+Powered by Jekyll
+UI by Twitter Bootstrap
+Gallery by Juicebox
