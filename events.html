@@ -2,32 +2,25 @@
 layout: default
 title: Events
 ---
-<header class="intro-header" style="background-image: url('/images/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>剑桥中国发展论坛</h1>
-                    <hr class="small">
-                    <span class="subheading">与世界对话，谋共同发展</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
 <div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            {% for post in site.posts limit: 10 %}
-            <div class="post-preview">
-                <a href="{{ post.url }}">
-                    <h2 class="post-title">{{ post.theme }}</h2>
-                </a>
-                <p class="post-meta">Posted by <a> Dr. Zhang</a> on {{post.date | date_to_long_string}}</p>
-            </div>
+        <div class="col-lg-3 event-listing">
+            <h3 class="upcoming_events">Upcoming Event</h3>
             <hr>
+            {% for post in site.posts limit: 10 %}
+            <ul>
+                <li>
+                    <a href="{{ post.url }}">
+                        <h4>{{ post.theme }}</h4>
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <br>
             {% endfor %}
+        </div>
+        <div class="col-lg-6 col-lg-offset-1 page-content">
+            <div style="height: 700px"></div>
         </div>
     </div>
 </div>

@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 <head>
-    <title>Home &laquo; Cambridge CSSA China Development Forum</title>
-    <meta name="description" content="Cambridge University China Development Forum, Chinese Scholar and Student Association" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Big Picture - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +20,7 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/clean-blog.min.css" rel="stylesheet">
 <link href="/css/styles.css" rel="stylesheet" />
-
+<link href="/css/flexslider.css" rel="stylesheet" />
 <!-- Custom Fonts -->
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -22,18 +29,28 @@
 <script src='/js/jquery.min.js'></script>
 <script src='/js/bootstrap.min.js'></script>
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-<div id="nav_bar" class="navbar navbar-default bs-docs-nav" role="navigation">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" style="min-height: 100px" role="navigation" style="opacity: 0.5">
     <div class="container">
-        <div class="row">
+        <div class="row" style="min-height: 100px">
             <div class="col-lg-offset">
-                <a href="/" class="navbar-brand">CSSA</a>
+                <a href="/" class="navbar-brand">
+                     <img style="max-width: 200px; margin-top: -20px" src="/images/LOGO.png">
+                </a>
             </div>
             <div class="col-lg-offset-5">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header" style="min-height: 100px">
+                <button style=" margin-top: 30px" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -41,7 +58,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse col-lg-6">
-                <ul class="nav navbar-nav navbar-right caps">
+                <ul class="nav navbar-nav navbar-right caps navbar_buttons">
                     <li>
                         <a href="/">HOME</a>
                     </li>
@@ -65,47 +82,17 @@
             </div>
         </div>
     </div>
-</div>
-
-<div id="bannercontainer" class="container-fluid">
-    <div class="row">
-        <div class="col-lg-offset">
-            <div class="banner">
-        </div>
-    </div>
-</div>
-<footer>
+    </nav>
+    <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="http://www.weibo.com/cssacambridge">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://page.renren.com/601264777?checked=true">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-renren fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/groups/cssacam/">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; CSSA 2014</p>
+            <div class="col-md-6 col-sm-12">
+                <h1>剑桥中国发展论坛</h1>
+                <p>与世界对话，谋共同发展</p>
             </div>
         </div>
+        <!-- /.row -->
     </div>
-</footer>
+</body>
+
+</html>

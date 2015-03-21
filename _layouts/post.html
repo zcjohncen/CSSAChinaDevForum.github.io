@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
 
 <head>
     <title>{{ page.title }} &laquo; Cambridge CSSA China Development Forum</title>
     {% include header.html %}
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-550c8b1128990e81" async="async"></script>
 </head>
 
 <body>
-    <!-- Navigation -->
     {% include navbar.html %}
-    <!-- Set background image. -->
-    <header class="intro-header" style="background-image: url('{{page.cover_photo}}')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>{{page.title}}</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 event-listing">
+                <h3 class="upcoming_events">Upcoming Event</h3>
+                <hr>
+                {% for post in site.posts limit: 10 %}
+                <ul>
+                    <li>
+                        <a href="{{ post.url }}">
+                            <h4>{{ post.theme }}</h4>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                {% endfor %}
+            </div>
+            <div class="col-lg-8 col-lg-offset-1 post-content">
+                <header class="intro-header" style="background-image: url('{{page.cover_photo}}')">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="post-heading">
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                </div>
+                </header>
+                <h3>{{ page.theme }}</h3>
+                <p><b>[TIME]</b> {{ page.time }}</p>
+                <p><b>[VENUE]</b> {{ page.venue }}</p>
+                <p><b>[FEE]</b> {{page.fee}}</p>
+                <br>
+                {{content}}
             </div>
         </div>
-    </header>
-    <!-- Post Content -->
-    <article class = "container">
-        <div class='row'>
-            <div id="post_body" class="col-lg-8 col-lg-offset-2">
-                <h2 class="subheading">{{page.highlight}}</h2>
-                <span class="event_date">Event Date: {{page.event_date}}</span>
-                    {{ content }}
-            </div>
-        </div>
-    </article>
-    <hr>
-    <!-- Footer -->
-    {% include post_share_sidebar.html %}
+    </div>
 </body>
 
 </html>

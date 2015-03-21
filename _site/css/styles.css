@@ -11,19 +11,55 @@ p {
 
 #nav_bar{
 	margin: 40px auto;
-	width: 95%;
+	width: 100%;
 	display: block;
+	opacity: 0.5;
+}
+
+.navbar_buttons{
+	font-size: 120%;
+	padding: 20px;
 }
 
 #banner_container{
 	display: block;
 }
 
-.banner{
-	height: 408px;
-	width: 90%;
+.upcoming_events{
+	text-align: center;
+	font-family: Serif;
+	font-size: 35px;
+}
+
+.page-content{
+	background-color: white;
+	opacity: 0.9;
+}
+
+.post-content{
+	background-color: white;
+	opacity: 0.7;
+	padding-top: 50px;
+}
+
+.event-listing{
+	background-color: white;
+	opacity: 0.4;
+}
+
+#menu_bar{
+	background-image: url(../images/MENU.jpg);
+	background-position: center; 
+	background-repeat: no-repeat;
+	height: 119px;
+	width: 100%;
 	margin: 0 auto;
-	background: url(../images/banner.png) no-repeat center center;
+}
+.banner{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/home-bg.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -99,4 +135,24 @@ box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.4);
     width: 28%;
     display: none;
   }
+}
+
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url(../images/home-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

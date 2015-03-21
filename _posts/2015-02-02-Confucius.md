@@ -2,12 +2,11 @@
 layout: post
 theme: "Confucius: from Cambridge, to China, and back"
 cover_photo: /images/cencen.jpg
-highlight: Confucius blablablka
-event_date: 13th March 2015
+time: 13th March 2015
+venue: Engineering Department LT1
+fee: FREE
 ---
 
-
-<a href= https://docs.google.com/forms/d/1UtrhRX3pRm8Bx1hBgJJ_WnNXt2HTxQDTn1gh6B-qWQg/viewform>【报名链接】</a>
 
 “学而时习之，不亦说乎？”、“有朋自远方来，不亦乐乎？”、“人不知而不愠，不亦君子乎？”。孔夫子的谆谆教诲，你是否还时而温习？中学时的朗朗书声，你是否还依稀记得？有些东西可以横贯时间与空间，恒久屹立于历史长河，比如思想；有些人物可以穿越古今和中外，万古流芳在千秋万代，比如孔子。在康河岸边，在克莱尔学院庭院小道上，你是否留意过那尊伫立已久的孔子塑像？你是否想听一段关于剑桥大学与儒家思想的情愫？你是否想问问西方学者，东方与西方哲学的异同？
 

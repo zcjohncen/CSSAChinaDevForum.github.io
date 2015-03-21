@@ -2,12 +2,11 @@
 layout: post
 theme: 走进文学巨匠马悦然
 cover_photo: /images/feifei.jpg
-highlight: 一场中国汉学的视听盛宴
-event_date: 13th March 2015
+time: 13th March 2015
+venue: Engineering Department LT1
+fee: FREE
 ---
 
-
-<a href= https://docs.google.com/forms/d/1UtrhRX3pRm8Bx1hBgJJ_WnNXt2HTxQDTn1gh6B-qWQg/viewform>【报名链接】</a>
 
 他，是“诺贝尔文学奖”十八位终身评委之一
 他，是瑞典皇家文学院院士

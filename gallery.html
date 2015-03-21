@@ -4,30 +4,24 @@ title: Gallery
 ---
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Juicebox Gallery</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" id="jb-viewport" content="minimal-ui" />
-	<meta name="description" content="This is a Juicebox Gallery. Get yours at www.juicebox.net" />
-	<style type="text/css">
-	body {
-		margin: 0px;
-	}
-	</style>
-</head>
 <body>
-	<!--START JUICEBOX EMBED-->
-	<script src="jbcore/juicebox.js"></script>
-	<script>
-	new juicebox({
-		containerId: 'juicebox-container',
-		galleryWidth: "100%",
-		galleryHeight: "90%"
+<div class="galleria">
+</div>
 
+	<!--START JUICEBOX EMBED-->
+<script src="/js/galleria-1.4.2.min.js"></script>
+<script>
+	var data = [
+    	{ image: "/images/feifei.jpg" },
+    	{ image: "/images/shuangshuang.jpg" },
+	];
+    Galleria.loadTheme('/galleria/themes/classic/galleria.classic.min.js');
+	Galleria.run('.galleria', {
+    dataSource: data,
 	});
-	</script>
-	<div id="juicebox-container"></div>
-	<!--END JUICEBOX EMBED-->
+</script>
+	<style>
+    .galleria{ width: 100%; height: 450px; background: #000 }
+</style>
 </body>
 </html>

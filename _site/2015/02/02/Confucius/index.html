@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
 
 <head>
     <title>Confucius &laquo; Cambridge CSSA China Development Forum</title>
@@ -12,7 +12,7 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/clean-blog.min.css" rel="stylesheet">
 <link href="/css/styles.css" rel="stylesheet" />
-
+<link href="/css/flexslider.css" rel="stylesheet" />
 <!-- Custom Fonts -->
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -22,20 +22,20 @@
 <script src='/js/bootstrap.min.js'></script>
 
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-550c8b1128990e81" async="async"></script>
 </head>
 
 <body>
-    <!-- Navigation -->
     <div id="nav_bar" class="navbar navbar-default bs-docs-nav" role="navigation">
     <div class="container">
-        <div class="row">
+        <div class="row" style="min-height: 100px">
             <div class="col-lg-offset">
-                <a href="/" class="navbar-brand">CSSA</a>
+                <a href="/" class="navbar-brand">
+                     <img style="max-width: 200px; margin-top: -20px" src="/images/LOGO.png">
+                </a>
             </div>
             <div class="col-lg-offset-5">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header" style="min-height: 100px">
+                <button type="button" style="margin-top: 30px" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -43,9 +43,11 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse col-lg-6">
-                <ul class="nav navbar-nav navbar-right caps">
-                    <li>
-                        <a href="/">HOME</a>
+                <ul class="nav navbar-nav">
+                    <li class='active'>
+                        <a href="/">HOME
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li>
                         <a href="/about">THE FORUM</a>
@@ -69,27 +71,60 @@
     </div>
 </div>
 
-    <!-- Set background image. -->
-    <header class="intro-header" style="background-image: url('/images/cencen.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>Confucius</h1>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 event-listing">
+                <h3 class="upcoming_events">Upcoming Event</h3>
+                <hr>
+                
+                <ul>
+                    <li>
+                        <a href="/2015/03/11/SilkRoad/">
+                            <h4>“一带一路”大型经济论坛</h4>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                
+                <ul>
+                    <li>
+                        <a href="/2015/02/02/Confucius/">
+                            <h4>Confucius: from Cambridge, to China, and back</h4>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                
+                <ul>
+                    <li>
+                        <a href="/2015/01/01/Malmqvist/">
+                            <h4>走进文学巨匠马悦然</h4>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                
             </div>
-        </div>
-    </header>
-    <!-- Post Content -->
-    <article class = "container">
-        <div class='row'>
-            <div id="post_body" class="col-lg-8 col-lg-offset-2">
-                <h2 class="subheading">Confucius blablablka</h2>
-                <span class="event_date">Event Date: 13th March 2015</span>
-                    <p><a href= https://docs.google.com/forms/d/1UtrhRX3pRm8Bx1hBgJJ_WnNXt2HTxQDTn1gh6B-qWQg/viewform>【报名链接】</a></p>
-
-<p>“学而时习之，不亦说乎？”、“有朋自远方来，不亦乐乎？”、“人不知而不愠，不亦君子乎？”。孔夫子的谆谆教诲，你是否还时而温习？中学时的朗朗书声，你是否还依稀记得？有些东西可以横贯时间与空间，恒久屹立于历史长河，比如思想；有些人物可以穿越古今和中外，万古流芳在千秋万代，比如孔子。在康河岸边，在克莱尔学院庭院小道上，你是否留意过那尊伫立已久的孔子塑像？你是否想听一段关于剑桥大学与儒家思想的情愫？你是否想问问西方学者，东方与西方哲学的异同？</p>
+            <div class="col-lg-8 col-lg-offset-1 post-content">
+                <header class="intro-header" style="background-image: url('/images/cencen.jpg')">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="post-heading">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </header>
+                <h3>Confucius: from Cambridge, to China, and back</h3>
+                <p><b>[TIME]</b> 13th March 2015</p>
+                <p><b>[VENUE]</b> Engineering Department LT1</p>
+                <p><b>[FEE]</b> FREE</p>
+                <br>
+                <p>“学而时习之，不亦说乎？”、“有朋自远方来，不亦乐乎？”、“人不知而不愠，不亦君子乎？”。孔夫子的谆谆教诲，你是否还时而温习？中学时的朗朗书声，你是否还依稀记得？有些东西可以横贯时间与空间，恒久屹立于历史长河，比如思想；有些人物可以穿越古今和中外，万古流芳在千秋万代，比如孔子。在康河岸边，在克莱尔学院庭院小道上，你是否留意过那尊伫立已久的孔子塑像？你是否想听一段关于剑桥大学与儒家思想的情愫？你是否想问问西方学者，东方与西方哲学的异同？</p>
 
 <p>《剑桥中国发展论坛》第二期活动有幸邀请到世界著名汉学家Prof Roel Sterckx（胡司德）。胡司德教授目前是英国人文社会科学院院士、英国皇家历史学会院士和英国皇家亚洲学会院士，他同时担任剑桥大学东亚系主任。胡司德教授早期在比利时鲁文大学学习汉学，随后在台湾大学学习古典汉语和哲学。1992年，进入剑桥大学从事中国文化历史的研究，于2007年被任命为英国剑桥大学中国学主席。先后在美国及英国牛津和剑桥等地研究中国历史的胡司德教授，对孔子学说在西方社会的应用有独到见解。他曾说过：“孔子的思想可以解决很多社会问题。比如，很多西方国家的财政因为社会福利而不堪重负，如果这些国家的文化中有‘孝’这种理念，就可以将国家责任部分转移给家庭”。</p>
 
@@ -99,41 +134,7 @@
 
             </div>
         </div>
-    </article>
-    <hr>
-    <!-- Footer -->
-    <!-- JiaThis Button BEGIN -->
-
-<footer id="post_share_sidebar">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2">
-                <ul class="list-inline text-center">
-                    <li>
-						<div class="jiathis_style_32x32">
-							<a class="jiathis_button_tsina"></a>
-							<a class="jiathis_button_renren"></a>
-							<a class="jiathis_button_weixin"></a>
-							<a class="jiathis_button_fb"></a>
-
-							<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-							<a class="jiathis_counter_style"></a>
-						</div>
-					</li>
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; CSSA 2014</p>
-            </div>
-        </div>
     </div>
-    <script type="text/javascript" >
-		var jiathis_config={
-		hideMore:true;
-	}
-	</script>
-	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-</footer>
-
-<!-- JiaThis Button END -->
 </body>
 
 </html>
