@@ -9,9 +9,9 @@
 
 <body>
     {% include navbar.html %}
-    <div class="container">
+    <div class="container" style="margin-top: 200px">
         <div class="row">
-            <div class="col-lg-3 event-listing">
+            <div class="col-lg-3 event-listing hidden-phone">
                 <h3 class="upcoming_events">Upcoming Event</h3>
                 <hr>
                 {% for post in site.posts limit: 10 %}
@@ -26,7 +26,7 @@
                 <br>
                 {% endfor %}
             </div>
-            <div class="col-lg-8 col-lg-offset-1 post-content">
+            <div class="col-lg-8 col-lg-offset-1 post-content" style="padding-bottom: 20px; margin-bottom: 20px">
                 <header class="intro-header" style="background-image: url('{{page.cover_photo}}')">
                     <div class="container">
                         <div class="row">

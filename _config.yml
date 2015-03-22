@@ -5,4 +5,4 @@ url: "[YOUR DOMAIN]"
 
 
 markdown: rdiscount
-permalink: pretty
+permalink: /events/:title

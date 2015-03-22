@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html class="full" lang="en">
-<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>The Big Picture - Start Bootstrap Template</title>
-
-    <!-- Bootstrap Core CSS -->
+    <title>Gallery &laquo; Cambridge CSSA China Development Forum</title>
+    <meta name="description" content="" />
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,18 +17,10 @@
 <script src='/js/jquery.min.js'></script>
 <script src='/js/bootstrap.min.js'></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" style="min-height: 100px" role="navigation" style="opacity: 0.5">
+<body id='gallery_body'>
+	<div id="nav_bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="row" style="min-height: 100px">
             <div class="col-lg-offset">
@@ -46,15 +30,15 @@
             </div>
             <div class="col-lg-offset-5">
             <div class="navbar-header" style="min-height: 100px">
-                <button style=" margin-top: 30px" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" style="margin-top: 30px" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse col-lg-6">
-                <ul class="nav navbar-nav navbar-right caps navbar_buttons">
+            <div class="collapse navbar-collapse col-lg-6" style="margin-top: 20px; font-size: medium">
+                <ul class="nav navbar-nav">
                     <li>
                         <a href="/">HOME</a>
                     </li>
@@ -78,17 +62,34 @@
             </div>
         </div>
     </div>
-    </nav>
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <h1>剑桥中国发展论坛</h1>
-                <p>与世界对话，谋共同发展</p>
-            </div>
-        </div>
-        <!-- /.row -->
-    </div>
-</body>
+</div>
 
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+        </ol>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+</body>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    var pictures = [
+        	{"image": '/images/shuangshuang.jpg',
+    		 "description": "Cute girl named shuangshuang"},
+    		{"image": '/images/banner.png',
+    		 "description": "China Development Forum"},
+    		{"image": '/images/Silk.png',
+    		 "description": "Our banner"},
+    			]
+    </script>
+<script src='/js/gallery.js'></script>
 </html>
