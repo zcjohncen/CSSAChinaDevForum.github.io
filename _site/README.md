@@ -4,9 +4,13 @@ Webpage for publishing news and updates for Cambridge University China Developme
 
 ## Dependencies
 
-Powered by Jekyll
-UI by Twitter Bootstrap
+1. Powered by Jekyll
 
+2. UI by Twitter Bootstrap
+
+3. Full-slider and clean-blog librariers from startbootstrap.com
+
+4. Contact Form powered by formspree.io
 
 ## How To
 
@@ -30,14 +34,14 @@ Open _post directory, create a new ``.md`` file with the format:
 Within the file, start by inserting the following element:
 
 ```
-\---
+---
 layout: post
 theme: 
 cover_photo:
 time:
 venue:
 fee:
-\--
+---
 ```
 
 Complete the variables, and then proceed to write the content
