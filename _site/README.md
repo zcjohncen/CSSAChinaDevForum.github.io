@@ -28,14 +28,16 @@ Open _post directory, create a new ``.md`` file with the format:
 ``year-month-day-title``
 
 Within the file, start by inserting the following element:
+
 ``
----
+\-\-\-
 layout: post
 theme: 
 cover_photo:
 time:
 venue:
 fee:
----
+\-\-\-
 ``
+
 Complete the variables, and then proceed to write the content
