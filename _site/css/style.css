@@ -1,0 +1,209 @@
+html,
+body {
+    height: 100%;
+}
+
+/* Gallery */
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+#page_content{
+    height: 70%;
+    width: 100%;
+}
+
+#home_page{
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/home.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.home_intro{
+    position: absolute;
+    bottom: 100px;
+    left: 13%;
+    right: 13%;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.bg-white{
+    background-color: white;
+    opacity: 0.8;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.scroll{
+    overflow-y: scroll;
+}
+
+.upcoming_events{
+    text-align: center;
+    font-family: Serif;
+    font-size: 35px;
+}
+
+.event-listing{
+    background-color: white;
+    opacity: 0.4;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
+.intro-header {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+
+/* About Page */
+.TitleSection {
+text-align: center;
+}
+
+.Team {
+text-align: center;
+}
+
+
+.Team h3 {
+color: #888888;
+}
+
+.Team p {
+text-align: center;
+font-size: 12px;
+}
+
+.round-thumb-container {
+overflow: hidden;
+position: relative;
+z-index: 1;
+}
+
+.round-thumb, .round-thumb span, .round-thumb span img {
+margin: 0 auto 5px;
+max-width: 175px;
+-webkit-border-radius: 175px;
+-moz-border-radius: 175px;
+border-radius: 175px;
+overflow: hidden;
+}
+
+/* NavBar */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        margin: 0;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 20px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+/* Hide in mobile */
+@media screen and (max-width: 600px) {
+  .hide-in-mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}

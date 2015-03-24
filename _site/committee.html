@@ -1,88 +1,105 @@
-<!DOCTYPE html>
-
-<html class="full" lang="en">
+<html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chihang Wang">
+
     <title>Committee &laquo; Cambridge CSSA China Development Forum</title>
     <meta name="description" content="" />
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Chihang Wang">
-<!-- Bootstrap Core CSS -->
 
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/clean-blog.min.css" rel="stylesheet">
-<link href="/css/styles.css" rel="stylesheet" />
-<link href="/css/full-slider.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/css/style.css" rel="stylesheet">
 
-<script src='/js/jquery.min.js'></script>
-<script src='/js/bootstrap.min.js'></script>
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Javascript -->
+    <script src='/js/jquery.min.js'></script>
+    <script src='/js/bootstrap.min.js'></script>
 
 </head>
 
 <body>
-<div id="nav_bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="row" style="min-height: 100px">
-            <div class="col-lg-offset">
+    <div class="brand"></div>
+        <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="">
                 <a href="/" class="navbar-brand">
-                     <img style="max-width: 200px; margin-top: -20px" src="/images/LOGO.png">
+                     <img style="max-width: 200px; margin-top: -30px; max-height: 94px" src="/images/LOGO.png">
                 </a>
             </div>
-            <div class="col-lg-offset-5">
-            <div class="navbar-header" style="min-height: 100px">
-                <button type="button" style="margin-top: 30px" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->           
             </div>
-            <div class="collapse navbar-collapse col-lg-6" style="margin-top: 20px; font-size: medium">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="clearfix visible-xs"></div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li id='nav_home'>
                         <a href="/">HOME</a>
                     </li>
-                    <li>
+                    <li id='nav_about'>
                         <a href="/about.html">THE FORUM</a>
                     </li>
-                    <li>
-                        <a href="/events.html">EVENTS</a>
+                    <li id='nav_event' class="dropdown">
+                        <a href="#" data-toggle="dropdown" aria-expanded="false">EVENTS</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/past_events.html">FORTHCOMING EVENTS</a></li>
+                            <li><a href="/upcoming_events.html">PAST EVENTS</a></li>
+                        </ul>
                     </li>
-                    <li>
+                    <li id='nav_gallery'>
                         <a href="/gallery.html">GALLERY</a>
                     </li>
-                    <li>
+                    <li id='nav_committee'>
                         <a href="/committee.html">COMMITTEE</a>
                     </li>
-                    <li>
+                    <li id='nav_contact'>
                         <a href="/contact.html">CONTACT</a>
+                    </li>
+                    <li id='nav_ticket'>
+                        <a href="/event_register.html">TICKET</a>
                     </li>
                 </ul>
             </div>
-            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
-</div>
+        <!-- /.container -->
+    </nav>
 
-<div style="margin-top: 200px">
-<body>
-    <div class="container page-content">
+<script>
+    $('#nav_committee').addClass('active')
+</script>
+
+    <div id="page_content">
+        <body>
+    <div class="container page-content fill" style="background-image:url('images/home-bg.jpg'); overflow: scroll">
         <div class='row'>
-            <div class="TitleSection col-lg-6 col-lg-offset-3">        
-                <h1 display='center'>Committee Memembers</h1>                     
+            <div class="col-lg-6 col-lg-offset-3" style="background-color: white; opacity: 0.6">
+            <div class="TitleSection">        
+                <h1 display='center'>Committee</h1>                     
             </div>
-            <div class=" col-lg-6 col-lg-offset-3">
+            <div>
                 <div class="Team">
                     <div class="round-thumb-container">
                         <div class="round-thumb"> <span><img src="/images/cencen.jpg"></span>
                         </div>
                     </div>
-                    <h2>张岑</h2>
-                    <br>
-                    <h3>Director</h3>
-                    <br>
+                    <h3>张岑</h3>
+                    <h4>Director</h4>
                     <p>张岑（1991年——），湖南醴陵人，黄埔军校一期生，是八路军的高级将领，无产阶级革命家、军事家、中国工农红军。
                     1925年加入中国共产党；同年12月赴苏联学习；1934年参加长征，参与指挥强渡大渡河、攻打腊子口等战斗.</p>                        
                 </div>
@@ -111,9 +128,12 @@
                     <p>金飞飞（1988年——），家族背景是朝鲜最高司令官. 在十一岁的时候被父母送到英国留学，由英国商人尼尔·海伍德介绍进入贵族寄宿学校哈罗公学学习。2006年，飞飞进入剑桥大学Homorton学院政治哲学专业。</p>             
                 </div>
             </div>
+            </div>
         </div>
     </div>
 </body>
-</div>
+    </div>
+    <!-- /.container -->
 </body>
+
 </html>

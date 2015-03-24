@@ -5,6 +5,7 @@ cover_photo: /images/cencen.jpg
 time: 13th March 2015
 venue: Engineering Department LT1
 fee: FREE
+categories: upcoming
 ---
 
 

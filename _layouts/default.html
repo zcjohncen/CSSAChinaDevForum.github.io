@@ -1,17 +1,37 @@
-<!DOCTYPE html>
-
-<html class="full" lang="en">
+<html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chihang Wang">
+
     <title>{{page.title}} &laquo; Cambridge CSSA China Development Forum</title>
     <meta name="description" content="{{page.description}}" />
-    {% include header.html %}
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Javascript -->
+    <script src='/js/jquery.min.js'></script>
+    <script src='/js/bootstrap.min.js'></script>
+
 </head>
 
 <body>
-{% include navbar.html %}
-<div style="margin-top: 200px">
-{{ content }}
-</div>
+    <div class="brand"></div>
+    {% include navbar.html %}
+
+    <div id="page_content">
+        {{content}}
+    </div>
+    <!-- /.container -->
 </body>
+
 </html>

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Forthcoming Events
+nav: nav_event
+---
+<div class="container fill scroll" style="background-image:url('images/home-bg.jpg')">
+    <div class="row">
+        <div class="col-lg-3 event-listing">
+            <h3 class="upcoming_events">Forthcoming Event</h3>
+            <hr>
+            {% for post in site.categories.past_event limit: 10 %}
+            <ul>
+                <li>
+                    <a href="{{ post.url }}">
+                        <h4>{{ post.theme }}</h4>
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <br>
+            {% endfor %}
+        </div>
+            {% for post in site.categories.past_event limit: 1 %}
+            <div class="col-lg-8 bg-white">
+                <header class="intro-header" style="background-image: url('{{post.cover_photo}}')">
+                <div class="post-heading">
+                </div>
+                </header>
+                <h3>{{ post.theme }}</h3>
+                <p><b>[TIME]</b> {{ post.time }}</p>
+                <p><b>[VENUE]</b> {{ post.venue }}</p>
+                <p><b>[FEE]</b> {{post.fee}}</p>
+                <br>
+                {{post.excerpt}}
+            </div>
+            {% endfor %}
+    </div>
+</div>

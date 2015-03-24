@@ -1,92 +1,114 @@
-<!DOCTYPE html>
-
-<html class="full" lang="en">
+<html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chihang Wang">
+
     <title>About the Forum &laquo; Cambridge CSSA China Development Forum</title>
     <meta name="description" content="" />
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Chihang Wang">
-<!-- Bootstrap Core CSS -->
 
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/clean-blog.min.css" rel="stylesheet">
-<link href="/css/styles.css" rel="stylesheet" />
-<link href="/css/full-slider.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/css/style.css" rel="stylesheet">
 
-<script src='/js/jquery.min.js'></script>
-<script src='/js/bootstrap.min.js'></script>
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Javascript -->
+    <script src='/js/jquery.min.js'></script>
+    <script src='/js/bootstrap.min.js'></script>
 
 </head>
 
 <body>
-<div id="nav_bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="row" style="min-height: 100px">
-            <div class="col-lg-offset">
+    <div class="brand"></div>
+        <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="">
                 <a href="/" class="navbar-brand">
-                     <img style="max-width: 200px; margin-top: -20px" src="/images/LOGO.png">
+                     <img style="max-width: 200px; margin-top: -30px; max-height: 94px" src="/images/LOGO.png">
                 </a>
             </div>
-            <div class="col-lg-offset-5">
-            <div class="navbar-header" style="min-height: 100px">
-                <button type="button" style="margin-top: 30px" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->           
             </div>
-            <div class="collapse navbar-collapse col-lg-6" style="margin-top: 20px; font-size: medium">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="clearfix visible-xs"></div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li id='nav_home'>
                         <a href="/">HOME</a>
                     </li>
-                    <li>
+                    <li id='nav_about'>
                         <a href="/about.html">THE FORUM</a>
                     </li>
-                    <li>
-                        <a href="/events.html">EVENTS</a>
+                    <li id='nav_event' class="dropdown">
+                        <a href="#" data-toggle="dropdown" aria-expanded="false">EVENTS</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/past_events.html">FORTHCOMING EVENTS</a></li>
+                            <li><a href="/upcoming_events.html">PAST EVENTS</a></li>
+                        </ul>
                     </li>
-                    <li>
+                    <li id='nav_gallery'>
                         <a href="/gallery.html">GALLERY</a>
                     </li>
-                    <li>
+                    <li id='nav_committee'>
                         <a href="/committee.html">COMMITTEE</a>
                     </li>
-                    <li>
+                    <li id='nav_contact'>
                         <a href="/contact.html">CONTACT</a>
+                    </li>
+                    <li id='nav_ticket'>
+                        <a href="/event_register.html">TICKET</a>
                     </li>
                 </ul>
             </div>
-            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
-</div>
+        <!-- /.container -->
+    </nav>
 
-<div style="margin-top: 200px">
-<div class="container page-content">
+<script>
+    $('#nav_about').addClass('active')
+</script>
+
+    <div id="page_content">
+        <div class="fill container" style="background-image:url('images/home-bg.jpg')">
 	<div class="row">
-		<div id="post_body" class="col-lg-6 col-lg-offset-3">
-		    <h2>About Us</h2>
-		    <div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor mauris at libero iaculis, vitae consectetur risus vehicula. Sed varius bibendum est ac euismod. Vivamus a justo nibh. Maecenas quis lorem vehicula, lobortis lorem eu, accumsan arcu. Sed ultricies turpis nec purus bibendum scelerisque. Vestibulum condimentum quis justo ut molestie. Aliquam vitae rhoncus risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Donec metus est, convallis elementum elit ac, rutrum congue massa. Vestibulum orci enim, ullamcorper vel elementum non, cursus id nunc. Nullam faucibus sem tellus, a tempus orci hendrerit et. Fusce vel massa magna. Sed elementum finibus cursus. Sed pharetra mauris a leo bibendum sollicitudin. Donec porttitor justo non velit ornare, in posuere quam euismod. Etiam fringilla, leo in dapibus tempor, dolor metus maximus dolor, at mollis libero velit vel massa.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam id dolor pharetra, lobortis nunc et, feugiat massa. Nam sit amet sapien in sem facilisis dictum. Phasellus quis metus vitae mi vehicula fermentum. Sed et eleifend dolor. Proin fermentum finibus sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. In accumsan tincidunt purus, ac faucibus orci tincidunt quis.
-
-Sed in elit risus. Sed nisl lacus, suscipit eu commodo vitae, interdum sed tellus. Aliquam a massa sit amet nunc tincidunt viverra non in ante. Aenean vel velit a risus volutpat suscipit. Cras eu magna quis tortor consequat bibendum. Mauris ac placerat nisl. Integer eu accumsan arcu. Donec mauris lectus, vulputate nec felis et, vestibulum sodales dui. Duis luctus turpis ut felis viverra, sit amet tempus metus venenatis. In finibus dapibus tincidunt. Donec eget quam mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus varius luctus vehicula. Maecenas pretium metus vitae laoreet ullamcorper.
-
-Sed maximus leo ut sollicitudin eleifend. Vivamus aliquam fringilla mollis. Fusce eu venenatis turpis. Nam sed cursus tortor. Integer ut faucibus augue. Vestibulum a ipsum ante. Curabitur non egestas elit. Pellentesque tincidunt consequat semper. Vivamus mi turpis, suscipit nec diam congue, consequat scelerisque elit. Nunc mattis ullamcorper nibh, et iaculis magna varius ac. Mauris eget faucibus erat.
-
-Generated 5 paragraphs, 353 words, 2370 bytes of Lorem Ipsum
+		<div class="col-lg-6 col-lg-offset-3" style='background-color: white; opacity: 0.5; margin-top: 50px'>
+		    <h2 style='text-align: center'>Cambridge China Development Forum</h2>
+		    <div style="font-size: 15px">
+				<p>
+				Founded in 2015, the Cambridge China Development Forum (CCDF) is a student-run voluntary
+				organization affiliated to the Chinese Students and Scholars Association in Cambridge (CSSACAM
+				http://cssacam.org/about-cssa/). The CCDF’s primary mission is to promote a deeper
+				and more comprehensive understanding of China for the public.
+				</p>
+				<p>
+				Events hosted by the Forum revolve around four major themes: Economics, Politics,
+				Philosophy and Culture. The CCDF aims to organise top quality forums, conferences and talks
+				for students, scholars and the general public in Cambridge. It also provides a platform for
+				students, academia and professionals to discuss and exchange (share and discuss) ideas
+				regarding China’s development. 
+				</p>
 			</div>
 		</div>
 	</div>
 </div>
-</div>
+    </div>
+    <!-- /.container -->
 </body>
+
 </html>

@@ -1,127 +1,125 @@
-<!DOCTYPE html>
-
-<html class="full" lang="en">
+<html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chihang Wang">
+
     <title>Contact Us &laquo; Cambridge CSSA China Development Forum</title>
     <meta name="description" content="" />
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Chihang Wang">
-<!-- Bootstrap Core CSS -->
 
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/clean-blog.min.css" rel="stylesheet">
-<link href="/css/styles.css" rel="stylesheet" />
-<link href="/css/full-slider.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/css/style.css" rel="stylesheet">
 
-<script src='/js/jquery.min.js'></script>
-<script src='/js/bootstrap.min.js'></script>
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Javascript -->
+    <script src='/js/jquery.min.js'></script>
+    <script src='/js/bootstrap.min.js'></script>
 
 </head>
 
 <body>
-<div id="nav_bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="row" style="min-height: 100px">
-            <div class="col-lg-offset">
+    <div class="brand"></div>
+        <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="">
                 <a href="/" class="navbar-brand">
-                     <img style="max-width: 200px; margin-top: -20px" src="/images/LOGO.png">
+                     <img style="max-width: 200px; margin-top: -30px; max-height: 94px" src="/images/LOGO.png">
                 </a>
             </div>
-            <div class="col-lg-offset-5">
-            <div class="navbar-header" style="min-height: 100px">
-                <button type="button" style="margin-top: 30px" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->           
             </div>
-            <div class="collapse navbar-collapse col-lg-6" style="margin-top: 20px; font-size: medium">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="clearfix visible-xs"></div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li id='nav_home'>
                         <a href="/">HOME</a>
                     </li>
-                    <li>
+                    <li id='nav_about'>
                         <a href="/about.html">THE FORUM</a>
                     </li>
-                    <li>
-                        <a href="/events.html">EVENTS</a>
+                    <li id='nav_event' class="dropdown">
+                        <a href="#" data-toggle="dropdown" aria-expanded="false">EVENTS</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/past_events.html">FORTHCOMING EVENTS</a></li>
+                            <li><a href="/upcoming_events.html">PAST EVENTS</a></li>
+                        </ul>
                     </li>
-                    <li>
+                    <li id='nav_gallery'>
                         <a href="/gallery.html">GALLERY</a>
                     </li>
-                    <li>
+                    <li id='nav_committee'>
                         <a href="/committee.html">COMMITTEE</a>
                     </li>
-                    <li>
+                    <li id='nav_contact'>
                         <a href="/contact.html">CONTACT</a>
+                    </li>
+                    <li id='nav_ticket'>
+                        <a href="/event_register.html">TICKET</a>
                     </li>
                 </ul>
             </div>
-            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
-</div>
+        <!-- /.container -->
+    </nav>
 
-<div style="margin-top: 200px">
-<div class="container page-content">
+<script>
+    $('#nav_contact').addClass('active')
+</script>
+
+    <div id="page_content">
+        <div class="fill container" style="background-image:url('images/home-bg.jpg')">
     <div class="row">
-        <div class="col-md-12">
-            <div class="well well-sm">
-                <form class="form-horizontal" method="post" action='//formspree.io/camcssachinadevform@gmail.com' >
-                    <fieldset>
-                        <legend class="text-center header">Contact us</legend>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="Name" class="form-control">
+        <div class="col-lg-6 col-lg-offset-3" style='background-color: white; opacity: 0.85; margin-top: 50px'>
+            <h3 style='text-align: center'>Cambridge China Development Forum</h3>
+                    <form role="form" method="post" action='//formspree.io/camcssachinadevform@gmail.com'>
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
                             </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
                             </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here." rows="7"></textarea>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
                             </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6"></textarea>
                             </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                            <input type="hidden" name="_next" value="/" />
                         </div>
-
-                        <input type="hidden" name="_next" value="/" />
-                    </fieldset>
-                </form>
-            </div>
+                    </form>
         </div>
     </div>
 </div>
-
-<style>
-    .header {
-        color: #36A0FF;
-        font-size: 27px;
-        padding: 10px;
-    }
-
-    .bigicon {
-        font-size: 35px;
-        color: #36A0FF;
-    }
-</style>
-</div>
+    </div>
+    <!-- /.container -->
 </body>
+
 </html>
