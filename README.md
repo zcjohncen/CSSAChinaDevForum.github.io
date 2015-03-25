@@ -61,8 +61,8 @@ categories:
 ---
 ```
 
-1. Add to **Past Event**:  set categories to past_event, set layout to old_post
-2. Add to **Forthcoming Event** set categories to upcoming, set layout to post
+1. Add to **Past Event**:  set ``categories`` to past_event, set ``layout`` to old_post
+2. Add to **Forthcoming Event** set ``categories`` to upcoming, set ``layout`` to post
 
 
 Complete the variables, and then proceed to write the content
