@@ -5,7 +5,7 @@ cover_photo: /images/feifei.jpg
 time: 13th March 2015
 venue: Engineering Department LT1
 fee: FREE
-categories: upcoming
+categories: past_event
 ---
 
 
