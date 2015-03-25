@@ -280,10 +280,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background-color: transparent;
   }
 
-  ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: none;    
-  }
-
   .home_intro{
     position: absolute;
     top: 65%;
