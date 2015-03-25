@@ -14,6 +14,22 @@ Webpage for publishing news and updates for Cambridge University China Developme
 
 ## How To
 
+### Edit Pages
+
+The following are the correspondence between file and page
+
+| Page        | File                 |
+| ----------- | -------------------- |
+| Home        | index.html           |
+| The Forum   | about.html           |
+| FORTHCOMING | upcoming_events.html |
+| PAST EVENT  | past_events.html     |
+| GALLERY     | gallery.html         |
+| COMMITTEE   | committee.html       |
+| CONTACT     | contact.html         |
+| TICKET      | event_register       |
+
+
 ### Add New Photo
 
 open ``/gallery.html``
@@ -41,7 +57,12 @@ cover_photo:
 time:
 venue:
 fee:
+categories:
 ---
 ```
+
+1. Add to **Past Event**:  set categories to past_event, set layout to old_post
+2. Add to **Forthcoming Event** set categories to upcoming, set layout to post
+
 
 Complete the variables, and then proceed to write the content
