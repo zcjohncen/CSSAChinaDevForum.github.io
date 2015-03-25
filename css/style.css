@@ -279,4 +279,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   .dropdown-menu{
     background-color: transparent;
   }
+
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: none;    
+  }
+
+  .home_intro{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: white;
+  }
+
+  iframe{
+    width: 100%;
+  }
 }
