@@ -122,6 +122,10 @@ text-align: center;
     font-size: x-small;
 }
 
+.d_nav{
+    margin-left: 50px;
+}
+
 .little_people p{
     margin-bottom: 0;
 }
@@ -158,6 +162,10 @@ overflow: hidden;
 /* NavBar */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
+}
+
+.logo{
+    max-width: 250px; margin-top: -30px; max-height: 94px;
 }
 
 @media screen and (min-width:768px) {
@@ -320,4 +328,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   iframe{
     width: 100%;
   }
+
+  .d_nav{
+    margin-left: 0px;
+  }
+
+  .logo{
+    max-width: 200px; max-height: 94px;
+    margin-top: -15px;
+    }
 }
