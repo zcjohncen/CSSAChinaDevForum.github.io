@@ -96,6 +96,36 @@ body {
 text-align: center;
 }
 
+.committee{
+    text-align: center;
+}
+
+
+.boss p{
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.position_title{
+    margin-top: 10px;
+    font-size: large;
+    font: bold;
+}
+
+.boss_title{
+    display: inline-block;
+    font: bold;
+    margin-right: 15px;
+}
+
+.little_people{
+    font-size: x-small;
+}
+
+.little_people p{
+    margin-bottom: 0;
+}
+
 .Team {
 text-align: center;
 }
